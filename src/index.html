@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>K-means Clustering</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/main.js" rel="script"></script>
+</head>
+<body>
+    <canvas id="chart"></canvas>
+    <div class="container">
+        <button id="buttonAddNewDots" class="container_button button-add">ADD NEW DOTS</button>
+        <button id="buttonStartClustering" class="container_button button-cluster">CLUSTER</button>
+    </div>
+    <div class="popup-container" id="popupAddDots">
+        <div id="popUp-content-wrap" class="popup-content-wrap">
+            <div class="popup-content">
+                <div class="popup-content-left-wrap">
+                    <div class="popup-content-left">
+                        <span class="popup-content-left__coord">X</span>
+                        <span class="popup-content-left__coord">Y</span>
+                    </div>
+                </div>
+                <div id="popUp-content-center-wrap" class="popup-content-center-wrap">
+                    <div id="container-div-coords" class="popup-content-center">
+                        <div class="coords-block">
+                            <input class="coords-block__coords-container" placeholder=" " minlength="1" maxlength="10" type="number" name="taskx[]" />
+                            <input class="coords-block__coords-container" placeholder=" " minlength="1" maxlength="10" type="number" name="tasky[]" />
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-content-right-wrap">
+                    <div class="popup-content-right">
+                        <button id="addNewCoord" class="popup-content-right__add-cords">+</button>
+                    </div>
+                </div>
+                <div class="popup-content-bottom">
+                    <button id="buttonClosePopUp" class="container_button popup__button">ADD DOTS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

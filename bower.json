@@ -1,0 +1,22 @@
+{
+  "name": "k-means_clustering",
+  "description": "k-means clustering.",
+  "main": "",
+  "authors": [
+    "Alexander Petrushin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/al-vlasov/k-means_clustering",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "chart.js": "^2.7.2"
+  }
+}
